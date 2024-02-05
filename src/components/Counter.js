@@ -10,8 +10,12 @@ const Counter = () => {
     };
     
     useEffect(() => {
+      // if (count === 10){
         console.log('useStates function runs');
-    }, [count]);   
+      // }
+        
+    },); 
+    // [count == 10] *******************************[ ADDITIONAL ARGUMENT s]****************  
   return (
     <>
       <div>
