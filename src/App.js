@@ -8,6 +8,8 @@ import ExampleRef from './components/ExampleRef';
 import Examples from './components/Examples';
 import Memo from './components/Memo';
 import Callback from './components/Callback';
+import UseRef from './components/UseRef';
+import Context from './components/Context';
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
    {/* <Child/> */}
    {/* <Examples /> */}
    {/* <Memo/> */}
-   <Callback/>
+   {/* <Callback/> */}
+   {/* <UseRef/> */}
+   <Context/>
     </>
   );
 }
